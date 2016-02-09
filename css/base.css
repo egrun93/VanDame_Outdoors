@@ -13,3 +13,7 @@ html {
 .carouselImage {
 	width: 100%;
 }
+
+.spacer {
+	height: 30px;
+}
