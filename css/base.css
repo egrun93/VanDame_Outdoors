@@ -1,0 +1,16 @@
+.makeOpaque {
+    opacity: 0.95;
+}
+
+.upperCushion {
+    margin-top: 10px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
