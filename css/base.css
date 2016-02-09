@@ -10,7 +10,6 @@ html {
     overflow-x: hidden;
 }
 
-.navbar-brand {
-	margin-top: 20px;
-	margin-bottom: 20px;
+.carouselImage {
+	width: 100%;
 }
