@@ -28,3 +28,7 @@ html {
 .logoCenter {
 	height: 100px;
 }
+
+#success_message { 
+	display: none;
+}
