@@ -10,12 +10,11 @@ html {
     overflow-x: hidden;
 }
 
-.carousel {
-	height: 500px;
-}
 
 .carImg {
 	height: 100%;
+	width: 100%;
+	max-height: 500px;
 }
 
 .spacer {
@@ -24,4 +23,15 @@ html {
 
 .logo {
 	height: 65px;
+<<<<<<< HEAD
+=======
+}
+
+.logoCenter {
+	height: 100px;
+}
+
+#success_message { 
+	display: none;
+>>>>>>> origin/master
 }
