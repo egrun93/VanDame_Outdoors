@@ -10,8 +10,12 @@ html {
     overflow-x: hidden;
 }
 
-.carouselImage {
-	width: 100%;
+.carousel {
+	height: 500px;
+}
+
+.carImg {
+	height: 100%;
 }
 
 .spacer {
