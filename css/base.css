@@ -10,6 +10,9 @@ html {
     overflow-x: hidden;
 }
 
+.bottomCushion {
+	padding-bottom: 25px;
+}
 
 .carImg {
 	height: 100%;
@@ -22,7 +25,9 @@ html {
 }
 
 .logo {
-	height: 65px;
+	height: 100px;
+	margin-bottom: 25px;
+	margin-top: 5px;
 }
 
 .logoCenter {
@@ -31,4 +36,11 @@ html {
 
 #success_message { 
 	display: none;
+}
+
+.footer {
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #000;
 }
