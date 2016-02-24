@@ -8,24 +8,44 @@
     <link rel="icon" href="images/icon.jpg" type="image/gif" sizes="16x16">
 </head>
 <body>
+	<!-- Used to include facebook functionality -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- end of Facebook script -->
+
 	<div class="container">
 		<div class="col-sm-6 hidden-xs">
-			<img src="images/logo.JPG" class="logo">
+			<a href="index.html"><img src="images/logo.JPG" class="logo"></a>
 		</div>
 		<div class="col-sm-6 text-right hidden-xs">
-			<h1>765-418-0018</h1>
+			<div class="col-sm-12 text-right upperCushion">
+				<h1>765-418-0018</h1>
+			</div>
+			<div class="col-sm-12 pull-right">
+				<div class="fb-like text-right" data-href="https://www.facebook.com/Van-Dame-Outdoor-Maintenance-678160045574729/?fref=ts" data-width="0" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+			</div>
 		</div>
 
 		<div class="col-xs-12 visible-xs text-center">
-			<img src="images/logo.JPG" class="logoCenter">
+			<a href="index.html"><img src="images/logo.JPG" class="logoCenter"></a>
 		</div>
 		<div class="col-xs-12 text-center visible-xs">
-			<h1>765-418-0018</h1>
-		</div>
-
-		<div class="spacer"></div>
+			<div class="col-sm-12">
+				<h1>765-418-0018</h1>
+			</div>
+			<div class="col-sm-12 text-center">
+				<div class="fb-like" data-href="https://www.facebook.com/Van-Dame-Outdoor-Maintenance-678160045574729/?fref=ts" data-width="0" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+			</div>
+		</div>		
 	</div>
 
+	<div class="spacerSmall"></div>
 
 	<nav class="navbar navbar-default">
 	  <div class="container">
@@ -37,7 +57,6 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="index.html">VanDame Outdoor</a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -55,7 +74,7 @@
 	<div class="container">
 
 		<div class="col-sm-12 text-center">
-		<h2>Contact us for a free quote today!</h2>
+		<h2 class="contactFormTitle">Contact us for a free quote today!</h2>
 		</div>
 
 		<div class="spacer"></div>
@@ -240,6 +259,19 @@
 </div>
 
     </div><!-- /.container -->
+
+
+    <div class="spacer"></div>
+	<footer class="footer">
+      <div class="container">
+      	<div class="spacerSmall"></div>
+		<div class="col-sm-12 text-center">
+			<h4 class="footerText">VanDame Outdoor Maintenance, LLC (I assume)</h4>
+			<h4 class="footerText">765-418-0018</h4>
+			<h4 class="footerText">jvandame@vandameoutdoor.com</h4>
+		</div>
+      </div>
+    </footer>
 
 
  	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

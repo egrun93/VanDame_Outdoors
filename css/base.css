@@ -24,13 +24,23 @@ html {
 	height: 30px;
 }
 
+.spacerSmall {
+	height: 15px;
+}
+
 .logo {
-	height: 100px;
+	height: 150px;
+	margin-top: 5px;
+}
+
+.footer-logo {
+	height: 75px;
 	margin-bottom: 25px;
 	margin-top: 5px;
 }
 
 .logoCenter {
+	margin-top: 5px;
 	height: 100px;
 }
 
@@ -41,6 +51,31 @@ html {
 .footer {
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #000;
+  height: 135px;
+  background-color: black;
+}
+
+.fb-like {
+	width: 300px;
+}
+
+.navbar-default {
+	background-color: white;
+}
+
+::-webkit-scrollbar {
+   	width: 0px;
+}
+
+.noUpperPadding {
+	padding-top: 0px;
+}
+
+.contactFormTitle {
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+.footerText {
+	color: #e0e0e0;
 }
